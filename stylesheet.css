@@ -1,16 +1,33 @@
+body {
+  font-family: 'HiraKakuPro-W6';
+  color: #9AA3AF;
+}
+
 header {
-  background-color: #161B36;
+  background-color: black;
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header__logo {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
   color: white;
+}
+
+.header__logo--image {
+  width: 70px;
+  height: 70px;
 }
 
 .header__menu {
   list-style: none;
   display: flex;
+  color: #9AA3AF;
 }
 
 .header__menu li {
@@ -26,12 +43,18 @@ header {
   align-items: center;
 }
 
-.top__message {
-  color: white;
+.top__message h1 {
+  font-size: 30px;
+}
+
+.top__image img {
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
 
 .top__image {
-  background-color: #35475F;
   height: 300px;
   width: 400px;
 }
@@ -41,7 +64,6 @@ header {
   height: 140vh;
   width: 100%;
   border-bottom: 1px solid grey;
-  color: white;
 }
 
 .numbers {
