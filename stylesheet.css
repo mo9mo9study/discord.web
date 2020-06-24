@@ -1,37 +1,42 @@
-body {
+h1 {
   font-family: 'HiraKakuPro-W6';
-  color: #9AA3AF;
+  color: #EBEDEF;
+}
+h2 {
+  font-family: 'HiraKakuPro-W6';
+  color: #EBEDEF;
+  text-align: center;
+}
+h3 {
+  font-family: 'Hiragino Kaku Gothic Pro';
+  color: #EBEDEF;
 }
 
 header {
   background-color: black;
-  height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .header__logo {
   font-size: 30px;
   display: flex;
   align-items: center;
-  color: white;
 }
-
 .header__logo--image {
   width: 70px;
   height: 70px;
 }
-
 .header__menu {
   list-style: none;
   display: flex;
-  color: #9AA3AF;
 }
-
 .header__menu li {
-  margin-right: 150px;
+  color: #9AA3AF;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15px;
 }
 
 .main__top {
@@ -42,21 +47,17 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-
 .top__message h1 {
   font-size: 30px;
 }
-
-.top__image img {
-  height: 300px;
-  width: 400px;
+.top__message p {
+  color: #9AA3AF;
+  font-size: 15px;
+}
+.top__img--img {
+  height: 350px;
   border-radius: 5px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
-}
-
-.top__image {
-  height: 300px;
-  width: 400px;
 }
 
 .main__body {
@@ -65,21 +66,25 @@ header {
   width: 100%;
   border-bottom: 1px solid grey;
 }
-
+.main__body h2 {
+  font-size: 25px;
+}
+.main__body h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.main__body p {
+  color: #9AA3AF;
+  font-size: 15px;
+}
 .numbers {
   padding: 50px;
 }
-
-h2 {
-  text-align: center;
-}
-
 .numbers__list {
   display: flex;
   justify-content: center;
   padding: 30px;
 }
-
 .numbers__list div {
   margin-left: 150px;
   margin-right: 150px;
@@ -88,12 +93,10 @@ h2 {
 .steps {
   padding: 50px;
 }
-
 .steps__list {
   display: flex;
   justify-content: center;
 }
-
 .steps__list div {
   background-color: #0B1026;
   height: 300px;
@@ -106,27 +109,19 @@ h2 {
 .features {
   padding: 50px;
 }
-
 .features__list {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
-
 .features__list div {
   height: 200px;
   width: 25vw;
   margin-top: 15px;
 }
-
-.features__list div h3 {
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-
 .features__list div i {
-  
-  margin-bottom: 10px;
+  color: yellow;
+  margin-bottom: 20px;
 }
 
 footer {
