@@ -82,12 +82,15 @@ header {
 }
 .numbers__list {
   display: flex;
-  justify-content: center;
-  padding: 30px;
+  justify-content: space-around;
 }
 .numbers__list div {
-  margin-left: 150px;
-  margin-right: 150px;
+  width: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .steps {
@@ -95,15 +98,15 @@ header {
 }
 .steps__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .steps__list div {
   background-color: #0B1026;
   height: 300px;
-  width:300px;
-  text-align: center;
-  margin: 20px;
+  width: 300px;
+  margin-top: 20px;
   padding: 20px;
+  text-align: center;
 }
 
 .features {
@@ -112,15 +115,19 @@ header {
 .features__list {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
 }
 .features__list div {
   height: 200px;
-  width: 25vw;
-  margin-top: 15px;
+  width: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .features__list div i {
-  color: yellow;
+  color: orangered;
   margin-bottom: 20px;
 }
 
