@@ -97,7 +97,7 @@ h2 {
 .steps__list div {
   background-color: #0B1026;
   height: 300px;
-  width: 250px;
+  width:300px;
   text-align: center;
   margin: 20px;
   padding: 20px;
@@ -107,8 +107,30 @@ h2 {
   padding: 50px;
 }
 
+.features__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.features__list div {
+  height: 200px;
+  width: 25vw;
+  margin-top: 15px;
+}
+
+.features__list div h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.features__list div i {
+  
+  margin-bottom: 10px;
+}
+
 footer {
   background-color: #161B36;
-  height: 70px;
+  height: 80px;
   width: 100%;
 }
