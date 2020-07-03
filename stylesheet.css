@@ -34,9 +34,20 @@ header {
 }
 .header__menu li {
   color: #9AA3AF;
-  padding-left: 50px;
-  padding-right: 50px;
   font-size: 15px;
+}
+
+.header__menu li a div {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+
+.header__menu li a div:hover {
+  background-color: #161B36;
 }
 
 .main__top {
