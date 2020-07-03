@@ -32,12 +32,9 @@ header {
   list-style: none;
   display: flex;
 }
-.header__menu li {
+.header__menu li a div {
   color: #9AA3AF;
   font-size: 15px;
-}
-
-.header__menu li a div {
   width: 150px;
   height: 70px;
   display: flex;
@@ -45,7 +42,6 @@ header {
   align-items: center;
   transition: background-color 0.5s;
 }
-
 .header__menu li a div:hover {
   background-color: #161B36;
 }
