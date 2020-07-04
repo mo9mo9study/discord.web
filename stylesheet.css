@@ -5,9 +5,13 @@ h1 {
 h2 {
   font-family: 'HiraKakuPro-W6';
   color: #EBEDEF;
-  text-align: center;
+  /* text-align: center; */
 }
 h3 {
+  font-family: 'Hiragino Kaku Gothic Pro';
+  color: #EBEDEF;
+}
+h4 {
   font-family: 'Hiragino Kaku Gothic Pro';
   color: #EBEDEF;
 }
@@ -97,7 +101,16 @@ header {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.numbers__list h3 {
+  font-size: 20px;
+}
+.numbers__list span {
+  color: white;
+  font-size: 30px;
+}
+.numbers__list i {
+  color: orangered;
 }
 
 .steps {
@@ -124,7 +137,7 @@ header {
   justify-content: space-around;
 }
 .features__list div {
-  height: 200px;
+  height: 300px;
   width: 300px;
   padding: 20px;
   margin-top: 20px;
@@ -136,6 +149,12 @@ header {
 .features__list div i {
   color: orangered;
   margin-bottom: 20px;
+}
+
+.features__list--time div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 footer {
