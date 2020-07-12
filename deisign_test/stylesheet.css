@@ -1,18 +1,26 @@
+@font-face {
+	font-family: 'ニコモジ＋';
+	src: url(../fonts/nicomoji-plus_1.11.ttf);
+}
+body {
+	font-family: ニコモジ＋;
+}
+
 h1 {
-  font-family: "M PLUS Rounded 1c";
+  /* font-family: "M PLUS Rounded 1c"; */
   color: #17174d;
 }
 h2 {
-  font-family: "M PLUS Rounded 1c";
-  color: #17174d;
+  /* font-family: "M PLUS Rounded 1c"; */
+  color: white;
   /* text-align: center; */
 }
 h3 {
-  font-family: "M PLUS Rounded 1c";
+  /* font-family: "M PLUS Rounded 1c"; */
   color: #17174d;
 }
 h4 {
-  font-family: "M PLUS Rounded 1c";
+  /* font-family: "M PLUS Rounded 1c"; */
   color: #17174d;
 }
 
@@ -22,7 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border-bottom: 1px dashed white; */
+  border-bottom: 1px dashed white;
 }
 .header__logo {
   font-size: 30px;
@@ -75,7 +83,7 @@ header {
 }
 
 .main__body {
-  background-color: #9EC7E3;
+  background-color: #2F68B1;
   width: 100%;
   border-bottom: 1px solid grey;
 }
@@ -101,7 +109,8 @@ header {
   padding: 20px;
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  /* flex-direction: column; */
 }
 .numbers__lists h3 {
   font-size: 20px;
@@ -113,12 +122,16 @@ header {
 .numbers__lists i {
   color: orangered;
   margin-right: 5px;
-  font-size: 20px;
+  font-size: 40px;
+  margin-right: 5px;
 }
 .numbers__title {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+}
+.image {
+  width: 80px;
 }
 
 .steps {
