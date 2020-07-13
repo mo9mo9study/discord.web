@@ -2,26 +2,28 @@
 	font-family: 'ニコモジ＋';
 	src: url(../fonts/nicomoji-plus_1.11.ttf);
 }
-body {
-	font-family: ニコモジ＋;
-}
-
 h1 {
-  /* font-family: "M PLUS Rounded 1c"; */
+  font-family: ニコモジ＋;
   color: #17174d;
 }
 h2 {
-  /* font-family: "M PLUS Rounded 1c"; */
+  font-family: ニコモジ＋;
   color: white;
   /* text-align: center; */
 }
 h3 {
-  /* font-family: "M PLUS Rounded 1c"; */
+  font-family: ニコモジ＋;
   color: #17174d;
 }
 h4 {
-  /* font-family: "M PLUS Rounded 1c"; */
+  font-family: ニコモジ＋;
   color: #17174d;
+}
+.white {
+	color: white;
+}
+.navy {
+	color: #17174d;
 }
 
 header {
@@ -47,10 +49,10 @@ header {
   display: flex;
 }
 .header__menu li a div {
-  color: #17174d;
-  font-size: 15px;
+  font-size: 17px;
   width: 150px;
   height: 70px;
+	font-family: ニコモジ＋;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,12 +71,16 @@ header {
   align-items: center;
   border-bottom: 1px dashed white;
 }
+.top__message {
+	width: 50%;
+}
 .top__message h1 {
   font-size: 30px;
 }
 .top__message p {
   color: #17174d;
   font-size: 15px;
+	padding-top: 10px;
 }
 .top__img--img {
   height: 350px;
@@ -98,37 +104,30 @@ header {
   font-size: 15px;
 }
 .numbers {
-  padding: 50px;
+  padding: 50px 0;
+	width: 90%
 }
 .numbers__lists {
   display: flex;
   justify-content: space-around;
 }
 .numbers__list {
-  width: 300px;
   padding: 20px;
-  margin-top: 20px;
   display: flex;
   align-items: center;
-  /* flex-direction: column; */
 }
-.numbers__lists h3 {
+.numbers__list h3 {
   font-size: 20px;
+	color: white;
+}
+.numbers__list p {
+	font-family: ニコモジ＋;
+	color: white;
 }
 .numbers__lists span {
-  color: #17174d;
+	color: white;
   font-size: 30px;
-}
-.numbers__lists i {
-  color: orangered;
-  margin-right: 5px;
-  font-size: 40px;
-  margin-right: 5px;
-}
-.numbers__title {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
+	font-family: ニコモジ＋;
 }
 .image {
   width: 80px;
