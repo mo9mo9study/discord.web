@@ -94,7 +94,7 @@ header {
   border-bottom: 1px solid grey;
 }
 .main__body h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 .main__body h3 {
   font-size: 25px;
@@ -168,13 +168,18 @@ header {
 }
 .features__list i {
   color: orangered;
-  margin-bottom: 20px;
 }
-
 .features__list div {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.features__list h3 {
+	color: white;
+}
+.features__list p {
+	color: white;
+	text-align: left;
 }
 
 footer {
