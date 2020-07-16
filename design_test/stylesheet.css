@@ -105,14 +105,14 @@ header {
 }
 .numbers {
   padding: 50px 0;
-	width: 90%
+	width: 90%;
 }
 .numbers__lists {
   display: flex;
   justify-content: space-around;
 }
 .numbers__list {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
 }
@@ -124,16 +124,17 @@ header {
 	font-family: ニコモジ＋;
 	color: white;
 }
-.numbers__lists span {
+.numbers__list span {
 	color: white;
-  font-size: 30px;
+  font-size: 35px;
 	font-family: ニコモジ＋;
 }
-.image {
+.numbers__img {
   width: 80px;
+	margin-right: 7px;
 }
 
-.steps {
+/* .steps {
   padding: 50px;
 }
 .steps__list {
@@ -147,31 +148,30 @@ header {
   margin-top: 20px;
   padding: 20px;
   text-align: center;
-}
+} */
 
 .features {
-  padding: 50px;
+  padding: 50px 0;
+	width: 90%;
 }
-.features__list {
+.features__lists {
   display: flex;
   justify-content: space-around;
 }
-.features__list div {
+.features__list {
   height: 300px;
-  width: 300px;
   padding: 20px;
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.features__list div i {
+.features__list i {
   color: orangered;
   margin-bottom: 20px;
 }
 
-.features__list--time div {
+.features__list div {
   display: flex;
   flex-direction: row;
   align-items: center;
