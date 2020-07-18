@@ -167,7 +167,7 @@ header {
   text-align: center;
 }
 .features__list i {
-  color: orangered;
+  color: #FFF27B;
 }
 .features__list div {
   display: flex;
