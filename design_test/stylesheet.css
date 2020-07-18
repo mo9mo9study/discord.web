@@ -1,0 +1,189 @@
+@font-face {
+	font-family: 'ニコモジ＋';
+	src: url(../fonts/nicomoji-plus_1.11.ttf);
+}
+h1 {
+  font-family: ニコモジ＋;
+  color: #17174d;
+}
+h2 {
+  font-family: ニコモジ＋;
+  color: white;
+  /* text-align: center; */
+}
+h3 {
+  font-family: ニコモジ＋;
+  color: #17174d;
+}
+h4 {
+  font-family: ニコモジ＋;
+  color: #17174d;
+}
+.white {
+	color: white;
+}
+.navy {
+	color: #17174d;
+}
+
+header {
+  background-color: #2F68B1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed white;
+}
+.header__logo {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.header__logo--image {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.header__menu {
+  list-style: none;
+  display: flex;
+}
+.header__menu li a div {
+  font-size: 17px;
+  width: 150px;
+  height: 70px;
+	font-family: ニコモジ＋;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+.header__menu li a div:hover {
+  background-color: #5799CF;
+}
+
+.main__top {
+  background-color: #5799CF;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px dashed white;
+}
+.top__message {
+	width: 50%;
+}
+.top__message h1 {
+  font-size: 30px;
+}
+.top__message p {
+  color: #17174d;
+  font-size: 15px;
+	padding-top: 10px;
+}
+.top__img--img {
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.main__body {
+  background-color: #2F68B1;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+.main__body h2 {
+  font-size: 30px;
+}
+.main__body h3 {
+  font-size: 25px;
+}
+.main__body p {
+  color: #17174d;
+  font-size: 15px;
+}
+.numbers {
+  padding: 50px 0;
+	width: 90%;
+}
+.numbers__lists {
+  display: flex;
+  justify-content: space-around;
+}
+.numbers__list {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.numbers__list h3 {
+  font-size: 20px;
+	color: white;
+}
+.numbers__list p {
+	font-family: ニコモジ＋;
+	color: white;
+}
+.numbers__list span {
+	color: white;
+  font-size: 35px;
+	font-family: ニコモジ＋;
+}
+.numbers__img {
+  width: 80px;
+	margin-right: 7px;
+}
+
+/* .steps {
+  padding: 50px;
+}
+.steps__list {
+  display: flex;
+  justify-content: space-around;
+}
+.steps__list div {
+  background-color: #2F68B1;
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+} */
+
+.features {
+  padding: 50px 0;
+	width: 90%;
+}
+.features__lists {
+  display: flex;
+  justify-content: space-around;
+}
+.features__list {
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.features__list i {
+  color: #FFF27B;
+}
+.features__list div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.features__list h3 {
+	color: white;
+}
+.features__list p {
+	color: white;
+	text-align: left;
+}
+
+footer {
+  background-color: #161B36;
+  height: 80px;
+  width: 100%;
+}
