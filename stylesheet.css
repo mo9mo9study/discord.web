@@ -161,6 +161,9 @@ header {
 .github {
 	font-size: 75px;
 }
+.social-count {
+	padding-left: 3px;
+}
 
 footer {
   height: 80px;
