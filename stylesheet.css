@@ -133,6 +133,7 @@ header {
 .amari {
 	border: 1px solid white;
 	height: 400px;
+	justify-content: center;
 }
 
 .features__list {
