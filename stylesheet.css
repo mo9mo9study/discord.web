@@ -9,7 +9,6 @@ h1 {
 h2 {
   font-family: ニコモジ＋;
   color: white;
-  /* text-align: center; */
 }
 h3 {
   font-family: ニコモジ＋;
@@ -64,15 +63,12 @@ header {
 
 .main__top {
   background-color: #5799CF;
-  height: 60vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px dashed white;
-}
-.top__message {
-	width: 50%;
+	padding: 30px 0;
 }
 .top__message h1 {
   font-size: 30px;
@@ -81,6 +77,10 @@ header {
   color: #17174d;
   font-size: 15px;
 	padding-top: 10px;
+}
+.top__img {
+	display: flex;
+	justify-content: center;
 }
 .top__img--img {
   height: 350px;
@@ -108,8 +108,6 @@ header {
 	width: 90%;
 }
 .numbers__lists {
-  display: flex;
-  justify-content: space-around;
 }
 .numbers__list {
   padding: 10px;
@@ -150,13 +148,19 @@ header {
   text-align: center;
 } */
 
+.twitter-timeline {
+	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.amari {
+	border: 1px solid white;
+	height: 400px;
+}
+
 .features {
   padding: 50px 0;
 	width: 90%;
 }
 .features__lists {
-  display: flex;
-  justify-content: space-around;
 }
 .features__list {
   height: 300px;
@@ -180,6 +184,12 @@ header {
 .features__list p {
 	color: white;
 	text-align: left;
+}
+.star {
+	font-size: 15px;
+}
+.github {
+	font-size: 75px;
 }
 
 footer {
