@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="./images/icon_logoBlackborder.png" type="image/png">
   </head>
   <body>
-    <header>
+    <header class="blue-back">
       <a href="index.html">
         <div class="header__logo">
           <img src="images/icon_logoBlackborder.png" alt="Logo" class="header__logo--image">
@@ -20,56 +20,48 @@
       </a>
       <nav>
         <ul class="header__menu">
-          <li><a href="index.html"><div class="white">TOP</div></a></li>
-          <li><a href="https://ofuse.me/ofuse/mo9mo9study" target="_blank"><div class="white">OFUSE</div></a></li>
-          <li><a href="index.html"><div class="white">Twitter</div></a></li>
-          <li><a href="https://github.com/mo9mo9study/discord.study" target=”_blank”><div class="white">Github</div></a></li>
-          <!-- <li><a href="index.html"><div class="white">Github</div></a></li> -->
+          <li><a href="index.html"><div>TOP</div></a></li>
+          <li><a href="https://ofuse.me/ofuse/mo9mo9study" target="_blank"><div>OFUSE</div></a></li>
+          <li><a href="https://twitter.com/mo9mo9study" target="_blank"><div>Twitter</div></a></li>
+          <li><a href="https://github.com/mo9mo9study/discord.study" target=”_blank”><div>Github</div></a></li>
+          <!-- <li><a href="index.html"><div>Github</div></a></li> -->
         </ul>
       </nav>
-      <div class="header__btn">
-      </div>
     </header>
     <main>
-      <section class="main__top">
-        <div class="top__message">
+      <section class="row main__top lightblue-back">
+        <div class="col-6 top__message">
           <h1>ようこそ！</h1>
           <h1>あなたは学び続けている人ですか？</h1>
           <p>私たちも学びを続けている人が集まっているギルドです。<br>オーナー自身が「自分にとって学びやすい環境」が欲しいと思い作り始め、現在はメンバーと会話を交えながら「よりよい学びの環境」を日々作り上げています。<br>そんな環境で、あなたも一緒に勉強しませんか？</p>
         </div>
-        <div class="top__img">
+        <div class="col-6 top__img">
           <img src="images/screen.png" alt="Screen" class="top__img--img">
         </div>
       </section>
-      <section class="main__body">
-        <div class="numbers container">
-          <h2>実績</h2>
-          <div class="numbers__lists row">
-            <div class="col-4">
-              <div class="numbers__list">
-                <img src="./images/icon_member.png" class="numbers__img">
-                <div>
-                  <h3>参加メンバー</h3>
-                  <p><span>49</span> 人<br>(7/4時点)</p>
-                </div>
+      <section class="main__body blue-back">
+        <div class="container contents">
+          <!-- <h2>実績</h2> -->
+          <div class="row numbers__lists">
+            <div class="col-4 numbers__list">
+              <img src="./images/icon_member.png" class="numbers__img">
+              <div>
+                <h3>参加メンバー</h3>
+                <p><span>49</span> 人<br>(7/4時点)</p>
               </div>
             </div>
-            <div class="col-4">
-              <div class="numbers__list">
-                <img src="./images/icon_month.png" class="numbers__img">
-                <div>
-                  <h3>月間学習時間</h3>
-                  <p><span>1,608</span> 時間<br>(6/1〜6/30)</p>
-                </div>
+            <div class="col-4 numbers__list">
+              <img src="./images/icon_month.png" class="numbers__img">
+              <div>
+                <h3>月間学習時間</h3>
+                <p><span>1,608</span> 時間<br>(6/1〜6/30)</p>
               </div>
             </div>
-            <div class="col-4">
-              <div class="numbers__list">
-                  <img src="./images/icon_week.png" class="numbers__img">
-                <div>
-                  <h3>週間学習時間</h3>
-                  <p><span>370</span> 時間<br>(6/22〜6/28)</p>
-                </div>
+            <div class="col-4 numbers__list">
+              <img src="./images/icon_week.png" class="numbers__img">
+              <div>
+                <h3>週間学習時間</h3>
+                <p><span>370</span> 時間<br>(6/22〜6/28)</p>
               </div>
             </div>
           </div>
@@ -88,37 +80,55 @@
             </div>
           </div>
         </div> -->
-        <div class="features container">
-          <h2>特徴</h2>
-          <div class="features__lists row">
-            <div class="features__list col-4">
+        <div class="container contents">
+          <!-- <h2>実績</h2> -->
+          <div class="row numbers__lists">
+            <!-- <div class="numbers__list col-4">
+              <img src="./images/icon_member.png" class="numbers__img">
+              <div>
+                <h3>参加メンバー</h3>
+                <p><span>49</span> 人<br>(7/4時点)</p>
+              </div>
+            </div> -->
+            <div class="col-8 numbers__list amari">
+              <h3>Coming soon...</h3>
+            </div>
+            <div class="col-4 numbers__list twitter">
+              <a class="twitter-timeline" href="https://twitter.com/mo9mo9study?ref_src=twsrc%5Etfw" data-theme="dark" height="400px">Tweets by mo9mo9study</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+        <div class="container contents">
+          <!-- <h2>特徴</h2> -->
+          <div class="row features__lists">
+            <div class="col-4 features__list">
               <img src="./images/icon_stopwatch.png" class="numbers__img">
               <h3>勉強時間記録</h3>
               <p>ボイスチャンネルへの参加と退室を勉強の開始と終了時間とし、勉強終了時に勉強時間を記録・出力します</p>
             </div>
-            <div class="features__list col-4">
-              <img src="./images/icon_stopwatch.png" class="numbers__img">
+            <div class="col-4 features__list">
+              <img src="./images/icon_week.png" class="numbers__img">
               <h3>週間勉強集計</h3>
               <p>毎週月曜日に先週の勉強時間を全メンバー分集計して結果を出力します</p>
             </div>
-            <div class="features__list col-4">
-              <i class="fab fa-github fa-4x"></i>
+            <div class="col-4 features__list">
+              <i class="fab fa-github github"></i>
               <h3>Github OpenSource</h3>
-              <p>コードは全てGithubにて公開管理しています。<br>興味あればご自由にご利用ください</p>
+              <p>コードは全てGithubにて公開管理しています<br>興味あればご自由にご利用ください</p>
               <div class="widget">
                 <a class="btn" href="https://github.com/mo9mo9study/discord.study" rel="noopener" target="_blank" aria-label="Star synzen/discord.rss on GitHub">
-                  <i class="far fa-star"></i>
-                  <span>Star</span>
+                  <i class="far fa-star star"></i>
+                  <span class="white">Star</span>
                 </a>
-                <a class="social-count" href="https://github.com/mo9mo9study/discord.study/stargazers" rel="noopener" target="_blank" aria-label="378 stargazers on GitHub">378</a>
+                <a class="social-count white" href="https://github.com/mo9mo9study/discord.study/stargazers" rel="noopener" target="_blank" aria-label="378 stargazers on GitHub">4</a>
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <a href="index.html"><div>Support this guild</div></a>
+    <footer class="lightblue-back">
     </footer>
   </body>
 </html>

@@ -5,44 +5,46 @@
 h1 {
   font-family: ニコモジ＋;
   color: #17174d;
+	font-size: 30px;
 }
 h2 {
   font-family: ニコモジ＋;
   color: white;
-  /* text-align: center; */
+	font-size: 30px;
 }
 h3 {
   font-family: ニコモジ＋;
-  color: #17174d;
+  color: white;
+	font-size: 20px;
 }
-h4 {
-  font-family: ニコモジ＋;
-  color: #17174d;
+p {
+	font-size: 15px;
 }
 .white {
 	color: white;
 }
-.navy {
-	color: #17174d;
+.blue-back {
+	background-color: #2F68B1;
+	border-bottom: 1px dashed white;
+}
+.lightblue-back {
+	background-color: #5799CF;
+	border-bottom: 1px dashed white;
 }
 
 header {
-  background-color: #2F68B1;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px dashed white;
 }
 .header__logo {
-  font-size: 30px;
   display: flex;
   align-items: center;
 }
 .header__logo--image {
-  width: 70px;
   height: 70px;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 .header__menu {
   list-style: none;
@@ -57,30 +59,26 @@ header {
   justify-content: center;
   align-items: center;
   transition: background-color 0.5s;
+	color: white;
 }
 .header__menu li a div:hover {
   background-color: #5799CF;
 }
 
 .main__top {
-  background-color: #5799CF;
-  height: 60vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px dashed white;
-}
-.top__message {
-	width: 50%;
-}
-.top__message h1 {
-  font-size: 30px;
+	padding: 30px 0;
 }
 .top__message p {
   color: #17174d;
-  font-size: 15px;
 	padding-top: 10px;
+}
+.top__img {
+	display: flex;
+	justify-content: center;
 }
 .top__img--img {
   height: 350px;
@@ -89,36 +87,16 @@ header {
 }
 
 .main__body {
-  background-color: #2F68B1;
   width: 100%;
-  border-bottom: 1px solid grey;
 }
-.main__body h2 {
-  font-size: 30px;
-}
-.main__body h3 {
-  font-size: 25px;
-}
-.main__body p {
-  color: #17174d;
-  font-size: 15px;
-}
-.numbers {
+.contents {
   padding: 50px 0;
 	width: 90%;
-}
-.numbers__lists {
-  display: flex;
-  justify-content: space-around;
 }
 .numbers__list {
   padding: 10px;
   display: flex;
   align-items: center;
-}
-.numbers__list h3 {
-  font-size: 20px;
-	color: white;
 }
 .numbers__list p {
 	font-family: ニコモジ＋;
@@ -149,15 +127,15 @@ header {
   padding: 20px;
   text-align: center;
 } */
+.twitter-timeline {
+	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.amari {
+	border: 1px solid white;
+	height: 400px;
+	justify-content: center;
+}
 
-.features {
-  padding: 50px 0;
-	width: 90%;
-}
-.features__lists {
-  display: flex;
-  justify-content: space-around;
-}
 .features__list {
   height: 300px;
   padding: 20px;
@@ -174,16 +152,21 @@ header {
   flex-direction: row;
   align-items: center;
 }
-.features__list h3 {
-	color: white;
-}
 .features__list p {
 	color: white;
 	text-align: left;
 }
+.star {
+	font-size: 15px;
+}
+.github {
+	font-size: 75px;
+}
+.social-count {
+	padding-left: 3px;
+}
 
 footer {
-  background-color: #161B36;
   height: 80px;
   width: 100%;
 }
