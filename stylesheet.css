@@ -64,6 +64,11 @@ header {
 .header__menu li a div:hover {
   background-color: #5799CF;
 }
+.header__menu li a div i {
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+}
 
 .main__top {
   width: 100%;
