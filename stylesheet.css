@@ -132,6 +132,10 @@ header {
   text-align: center;
 } */
 
+.twitter {
+	text-align: right;
+}
+
 .features__list {
   height: 300px;
   padding: 20px;
@@ -155,14 +159,19 @@ header {
 .star {
 	font-size: 15px;
 }
-.github {
+.features__list i {
 	font-size: 75px;
 }
-.social-count {
-	padding-left: 3px;
-}
+
 
 footer {
   height: 80px;
   width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	color: white;
 }
