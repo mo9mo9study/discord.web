@@ -88,7 +88,6 @@ header {
 .top__img--img {
   height: 350px;
   border-radius: 5px;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
 
 .main__body {
@@ -132,14 +131,6 @@ header {
   padding: 20px;
   text-align: center;
 } */
-.twitter-timeline {
-	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
-}
-.amari {
-	border: 1px solid white;
-	height: 400px;
-	justify-content: center;
-}
 
 .features__list {
   height: 300px;
