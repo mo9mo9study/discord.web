@@ -1,3 +1,6 @@
+/*
+ * Typography
+ -------------------------- */
 @font-face {
 	font-family: 'ニコモジ＋';
 	src: url(../fonts/nicomoji-plus_1.11.ttf);
@@ -20,6 +23,10 @@ h3 {
 p {
 	font-size: 15px;
 }
+
+/*
+ * color
+ -------------------------- */
 .white {
 	color: white;
 }
@@ -32,6 +39,10 @@ p {
 	border-bottom: 1px dashed white;
 }
 
+
+/*
+ * Header
+ -------------------------- */
 header {
   width: 100%;
   display: flex;
@@ -70,6 +81,9 @@ header {
 	margin-left: 3px;
 }
 
+/*
+ * Main Contents
+ -------------------------- */
 .main__top {
   width: 100%;
   display: flex;
@@ -163,7 +177,9 @@ header {
 	font-size: 75px;
 }
 
-
+/*
+ * Footer
+ -------------------------- */
 footer {
   height: 80px;
   width: 100%;
