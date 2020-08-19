@@ -3,7 +3,7 @@
  -------------------------- */
 @font-face {
   font-family: 'ニコモジ＋';
-  src: url(../fonts/nicomoji-plus_1.11.ttf);
+  src: url(./fonts/nicomoji-plus_1.11.ttf);
 }
 h1 {
   font-family: ニコモジ＋;
