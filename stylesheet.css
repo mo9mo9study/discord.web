@@ -1,119 +1,138 @@
+/*
+ * Typography
+ -------------------------- */
 @font-face {
-	font-family: 'ニコモジ＋';
-	src: url(../fonts/nicomoji-plus_1.11.ttf);
+  font-family: 'ニコモジ＋';
+  src: url(../fonts/nicomoji-plus_1.11.ttf);
 }
 h1 {
   font-family: ニコモジ＋;
   color: #17174d;
-	font-size: 30px;
+  font-size: 30px;
 }
 h2 {
   font-family: ニコモジ＋;
   color: white;
-	font-size: 30px;
+  font-size: 30px;
 }
 h3 {
   font-family: ニコモジ＋;
   color: white;
-	font-size: 20px;
+  font-size: 20px;
 }
 p {
-	font-size: 15px;
-}
-.white {
-	color: white;
-}
-.blue-back {
-	background-color: #2F68B1;
-	border-bottom: 1px dashed white;
-}
-.lightblue-back {
-	background-color: #5799CF;
-	border-bottom: 1px dashed white;
+  font-size: 15px;
 }
 
-header {
+/*
+ * Color
+ -------------------------- */
+.white {
+  color: white;
+}
+.blue-back {
+  background-color: #2F68B1;
+  border-bottom: 1px dashed white;
+}
+.lightblue-back {
+  background-color: #5799CF;
+  border-bottom: 1px dashed white;
+}
+
+/*
+ * Utility
+ -------------------------- */
+.pt-50 {
+  padding-top: 50px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+/*
+ * Header
+ -------------------------- */
+header nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  line-height: 80px;
+  padding: 0 16px;
 }
-.header__logo {
-  display: flex;
-  align-items: center;
+.header__logo a {
+  display: inline-block;
+  font-family: ニコモジ＋;
 }
 .header__logo--image {
-  height: 70px;
-  margin: 0 10px;
+  height: 48px;
+  margin-right: 10px;
 }
 .header__menu {
+  display: flex;
   list-style: none;
-  display: flex;
 }
-.header__menu li a div {
-  font-size: 17px;
-  width: 150px;
-  height: 70px;
-	font-family: ニコモジ＋;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header__menu li {
+  cursor: pointer;
   transition: background-color 0.5s;
-	color: white;
 }
-.header__menu li a div:hover {
+.header__menu li:hover {
   background-color: #5799CF;
 }
-.header__menu li a div i {
-	color: white;
-	font-size: 8px;
-	margin-left: 3px;
+.header__menu li a {
+  display: table;
+  color: white;
+  font-family: ニコモジ＋;
+  font-size: 17px;
+  line-height: 80px; /* TODO: shimple-grid の line-height を削除する */
+  padding: 0 2em;
+}
+.header__menu li i {
+  display: table-cell;
+  color: white;
+  font-size: 8px;
+  vertical-align: middle;
+  padding-left: 3px;
 }
 
+/*
+ * Main Contents
+ -------------------------- */
 .main__top {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-	padding: 30px 0;
+  padding: 30px 0;
+}
+.top__message, .top__img {
+  width: 35%;
 }
 .top__message p {
   color: #17174d;
-	padding-top: 10px;
+  padding-top: 10px;
 }
 .top__img {
-	display: flex;
-	justify-content: center;
-}
-.top__img--img {
-  height: 350px;
+  text-align: right;
   border-radius: 5px;
 }
 
-.main__body {
-  width: 100%;
-}
-.contents {
-  padding: 50px 0;
-	width: 90%;
-}
 .numbers__list {
-  padding: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .numbers__list p {
-	font-family: ニコモジ＋;
-	color: white;
+  font-family: ニコモジ＋;
+  color: white;
 }
 .numbers__list span {
-	color: white;
+  color: white;
   font-size: 35px;
-	font-family: ニコモジ＋;
+  font-family: ニコモジ＋;
 }
 .numbers__img {
   width: 80px;
-	margin-right: 7px;
+  margin-right: 7px;
 }
 
 /* .steps {
@@ -133,45 +152,98 @@ header {
 } */
 
 .twitter {
-	text-align: right;
+  text-align: right;
 }
 
 .features__list {
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 .features__list i {
   color: #FFF27B;
 }
-.features__list div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 .features__list p {
-	color: white;
-	text-align: left;
+  color: white;
+  text-align: left;
 }
 .star {
-	font-size: 15px;
+  font-size: 15px;
 }
 .features__list i {
-	font-size: 75px;
+  font-size: 75px;
 }
 
-
+/*
+ * Footer
+ -------------------------- */
 footer {
-  height: 80px;
-  width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  padding: 27px 0;
+  text-align: center;
 }
 
 footer p {
-	color: white;
+  color: white;
+}
+
+
+/*
+ * For Tablet
+ -------------------------- */
+@media screen and (max-width: 959px) {
+  /*
+   * Header
+   -------------------------- */
+  header nav {
+    display: block;
+    padding: 0;
+    line-height: normal;
+  }
+  header h1 {
+    text-align: center;
+    padding: 16px 0;
+  }
+  .header__menu {
+    border-top: 1px dashed white;
+  }
+  .header__menu li {
+    flex-basis: 25%;
+    border-left: 1px dashed white;
+  }
+  .header__menu li:first-child {
+    border-left: none;
+  }
+  .header__menu li a {
+    line-height: 60px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header__logo--image {
+    vertical-align: middle;
+  }
+}
+
+/*
+ * For SmartPhone
+ -------------------------- */
+@media screen and (max-width: 559px) {
+  /*
+   * Typography
+   -------------------------- */
+  h1 {
+    font-size: 20px;
+  }
+  /*
+   * Header
+   -------------------------- */
+  .header__menu li a {
+    font-size: 13px;
+  }
+  /*
+   * Main Contents
+   -------------------------- */
+  .top__message {
+    width: 90%;
+  }
+  .top__img {
+    display: none;
+  }
 }
