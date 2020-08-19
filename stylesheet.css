@@ -2,41 +2,41 @@
  * Typography
  -------------------------- */
 @font-face {
-	font-family: 'ニコモジ＋';
-	src: url(../fonts/nicomoji-plus_1.11.ttf);
+  font-family: 'ニコモジ＋';
+  src: url(../fonts/nicomoji-plus_1.11.ttf);
 }
 h1 {
   font-family: ニコモジ＋;
   color: #17174d;
-	font-size: 30px;
+  font-size: 30px;
 }
 h2 {
   font-family: ニコモジ＋;
   color: white;
-	font-size: 30px;
+  font-size: 30px;
 }
 h3 {
   font-family: ニコモジ＋;
   color: white;
-	font-size: 20px;
+  font-size: 20px;
 }
 p {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 /*
  * Color
  -------------------------- */
 .white {
-	color: white;
+  color: white;
 }
 .blue-back {
-	background-color: #2F68B1;
-	border-bottom: 1px dashed white;
+  background-color: #2F68B1;
+  border-bottom: 1px dashed white;
 }
 .lightblue-back {
-	background-color: #5799CF;
-	border-bottom: 1px dashed white;
+  background-color: #5799CF;
+  border-bottom: 1px dashed white;
 }
 
 /*
@@ -88,10 +88,10 @@ header nav {
 }
 .header__menu li i {
   display: table-cell;
-	color: white;
+  color: white;
   font-size: 8px;
   vertical-align: middle;
-	padding-left: 3px;
+  padding-left: 3px;
 }
 
 /*
@@ -109,7 +109,7 @@ header nav {
 }
 .top__message p {
   color: #17174d;
-	padding-top: 10px;
+  padding-top: 10px;
 }
 .top__img {
   text-align: right;
@@ -122,17 +122,17 @@ header nav {
   justify-content: center;
 }
 .numbers__list p {
-	font-family: ニコモジ＋;
-	color: white;
+  font-family: ニコモジ＋;
+  color: white;
 }
 .numbers__list span {
-	color: white;
+  color: white;
   font-size: 35px;
-	font-family: ニコモジ＋;
+  font-family: ニコモジ＋;
 }
 .numbers__img {
   width: 80px;
-	margin-right: 7px;
+  margin-right: 7px;
 }
 
 /* .steps {
@@ -152,7 +152,7 @@ header nav {
 } */
 
 .twitter {
-	text-align: right;
+  text-align: right;
 }
 
 .features__list {
@@ -162,14 +162,14 @@ header nav {
   color: #FFF27B;
 }
 .features__list p {
-	color: white;
-	text-align: left;
+  color: white;
+  text-align: left;
 }
 .star {
-	font-size: 15px;
+  font-size: 15px;
 }
 .features__list i {
-	font-size: 75px;
+  font-size: 75px;
 }
 
 /*
@@ -181,7 +181,7 @@ footer {
 }
 
 footer p {
-	color: white;
+  color: white;
 }
 
 
